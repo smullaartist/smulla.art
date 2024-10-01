@@ -358,7 +358,7 @@ h6 {
 
   .navmenu a i,
   .navmenu a:focus i {
-    font-size: 14px;
+    font-size: 16.8px;
     line-height: 0;
     margin-left: 5px;
     width: 30px;
@@ -416,7 +416,7 @@ h6 {
   .mobile-nav-active .mobile-nav-toggle {
     color: #fff;
     position: absolute;
-    font-size: 32px;
+    font-size: 40px;
     top: 15px;
     right: 15px;
     margin-right: 0;
