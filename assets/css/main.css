@@ -1355,11 +1355,6 @@ section,
   opacity: 1;
 }
 
-/* Make the text appear on hover */
-.swiper-slide.joji-die-for-you-image:hover .overlay-text {
-  opacity: 1;
-}
-
 .toggle {
   cursor: pointer;
   color: #666666;
