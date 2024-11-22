@@ -1355,10 +1355,25 @@ section,
   opacity: 1;
 }
 
-progress
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+/* Make the text appear on hover */
+.swiper-slide.joji-die-for-you-image:hover .overlay-text {
+  opacity: 1;
+}
+
+.toggle {
+  cursor: pointer;
+  color: #666666;
+  transition: color 0.3s ease;
+  font-weight: bold;
+}
+.toggle:hover {
+  color: #F92A56;
+}
+.toggle.active {
+  font-weight: bold;
+  text-decoration: none;
+  color: #F92A56;
+}
+.courses-group {
+  margin-top: 10px;
 }
