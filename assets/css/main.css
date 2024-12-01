@@ -1297,6 +1297,12 @@ section,
   height: auto; /* Maintain aspect ratio */
 }
 
+/* Targeting images inside this particular Swiper container for street photography */
+.swiper-wrapper.align-items-center .swiper-slide img[src*="fruitsoffortune" ] {
+  width: 56.25%; /* Default size */
+  height: auto; /* Maintain aspect ratio */
+}
+
 /* Adjust image size for small screens */
 @media (max-width: 575px) {
   .swiper-wrapper.align-items-center .swiper-slide img[src*="streetphotography"] {
@@ -1312,6 +1318,10 @@ section,
     height: auto; /* Maintain aspect ratio */
   }
   .swiper-wrapper.align-items-center .swiper-slide img[src*="999hoodieandsweats" ] {
+    width: 100%; /* Default size */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .swiper-wrapper.align-items-center .swiper-slide img[src*="fruitsoffortune" ] {
     width: 100%; /* Default size */
     height: auto; /* Maintain aspect ratio */
   }
