@@ -1226,13 +1226,11 @@ section,
 }
 
 .gameplay-container-2 video {
-  position: relative;
-  padding-bottom: 177.78%; /* 9:16 aspect ratio */
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
+  width: 360px; /* Example width */
+  height: 640px; /* 9:16 aspect ratio */
   background: #0a0a0a;
-  margin-bottom: 1.5rem; /* Adjust as needed */
+  overflow: hidden;
+  margin-bottom: 1.5rem;
 }
 
 
