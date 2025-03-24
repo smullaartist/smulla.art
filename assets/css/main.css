@@ -1309,6 +1309,13 @@ section,
   height: auto; /* Maintain aspect ratio */
 }
 
+/* Targeting images inside this particular Swiper container for street photography */
+.swiper-wrapper.align-items-center .swiper-slide img[src*="ironbastion" ] {
+  width: 45%; /* Default size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
 /* Adjust image size for small screens */
 @media (max-width: 575px) {
   .swiper-wrapper.align-items-center .swiper-slide img[src*="streetphotography"] {
