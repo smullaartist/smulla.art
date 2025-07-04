@@ -1322,6 +1322,12 @@ section,
 }
 
 /* Targeting images inside this particular Swiper container for street photography */
+.swiper-wrapper.align-items-center .swiper-slide img[src*="verdantdawn" ] {
+  width: 45%; /* Default size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Targeting images inside this particular Swiper container for street photography */
 .swiper-wrapper.align-items-center .swiper-slide img[src*="ironbastion" ] {
   width: 45%; /* Default size */
   height: auto; /* Maintain aspect ratio */
