@@ -1333,6 +1333,12 @@ section,
   height: auto; /* Maintain aspect ratio */
 }
 
+/* Targeting images inside this particular Swiper container for street photography */
+.swiper-wrapper.align-items-center .swiper-slide img[src*="room19" ] {
+  width: 45%; /* Default size */
+  height: auto; /* Maintain aspect ratio */
+}
+
 
 /* Adjust image size for small screens */
 @media (max-width: 575px) {
@@ -1359,6 +1365,18 @@ section,
   .swiper-wrapper.align-items-center .swiper-slide img[src*="noblesseoblige" ] {
     width: 100%; /* Default size */
     height: auto; /* Maintain aspect ratio */
+  }
+  .swiper-wrapper.align-items-center .swiper-slide img[src*="verdantdawn" ] {
+  width: 100%; /* Default size */
+  height: auto; /* Maintain aspect ratio */
+  }
+  .swiper-wrapper.align-items-center .swiper-slide img[src*="ironbastion" ] {
+  width: 100%; /* Default size */
+  height: auto; /* Maintain aspect ratio */
+  }
+  .swiper-wrapper.align-items-center .swiper-slide img[src*="room19" ] {
+  width: 100%; /* Default size */
+  height: auto; /* Maintain aspect ratio */
   }
 }
 
