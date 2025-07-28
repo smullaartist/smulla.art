@@ -1388,9 +1388,8 @@ section,
   width: 100%; /* Default size */
   height: auto; /* Maintain aspect ratio */
   }
-  .swiper-wrapper.align-items-center .swiper-slide video[src*="reup" ] {
-  width: 100%; /* Default size */
-  height: auto; /* Maintain aspect ratio */
+  .swiper-slide video {
+    width: 100%;
   }
 }
 
